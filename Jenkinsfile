@@ -3,7 +3,7 @@ pipeline {
 	stages {
       stage('Git Checkout') {
          steps {
-            git 'https://github.com/Anjuna662/INGFavBank.git'
+            git 'https://github.com/KajalAgarwal26/INGFavAccount.git'
 		}
 	}
 	stage('Build') {
